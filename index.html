@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Tracker</title>
+    <link href="./styles/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video id="videoel" width="500" height="500" preload="auto" loop playsinloop autoplay>
+        </video>
+        <canvas id="overlay" width="500" height="500"></canvas>
+    </div>
+    <br>
+    <input class="btn" type="button" value="wait, loading video" disabled="disabled" onclick="startVideo()"
+        id="startbutton">
+    <div id="text">
+        <div id="gum" class="gum">
+        </div>
+        <div id="nogum" class="nogum">
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
